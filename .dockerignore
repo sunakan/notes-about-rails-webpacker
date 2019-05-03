@@ -1,0 +1,13 @@
+.git
+.gitignore
+tmp/*
+log/*
+coverage/*
+notes/*
+README*
+docker-compose.yml
+.rspec
+.rubocop.yml
+containers
+vendor/bundle
+config/master.key
