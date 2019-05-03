@@ -1,0 +1,13 @@
+== webpacker
+
+=== webpackerの設定
+
+.config/webpacker.yml
+----
+default: &default
+  source_path: app/frontend # 変更箇所
+  source_entry_path: packs
+  public_root_path: public
+----
+
+* javascriptだけではないため、ディレクトリ名をわかりやすくする
