@@ -18,3 +18,6 @@ down:
 # make bash
 bash:
 	@$(DC) run -p 80:3000 --rm app bash
+
+deploy:
+	git push heroku `git rev-parse --abbrev-ref HEAD`:master
