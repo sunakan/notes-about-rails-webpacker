@@ -38,3 +38,4 @@ RUN gem uninstall bundler && gem install bundler -N -v=1.17.3 && \
   yarn install && \
   bundle install --no-cache -j4 --path=vendor/bundle --without development test && \
   bundle clean
+RUN bundle exec rails webpacker:compile
