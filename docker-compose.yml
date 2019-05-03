@@ -23,5 +23,6 @@ services:
     image: postgres:11.2
     environment:
       - TZ=Asia/Tokyo
+      - POSTGRES_PASSWORD=password
     ports:
       - 5432:5432
