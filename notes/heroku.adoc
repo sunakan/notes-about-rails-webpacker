@@ -1,0 +1,8 @@
+== Herokuへデプロイ
+
+* Dockerfileにdeploy用を記述
+* heroku.ymlの用意
+* `heroku create rails6-webpacker`
+* ブランチをmasterとしてpush
+* Dockerを使いたいなら、 `heroku stack:set container`
+** 一旦Dockerは諦める
