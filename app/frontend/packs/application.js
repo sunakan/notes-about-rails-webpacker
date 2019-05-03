@@ -5,8 +5,8 @@
 
 require("@rails/ujs").start()
 require("@rails/activestorage").start()
-require("./helloworld")
-require("./h1red")
+require("../javascripts/helloworld")
+require("../javascripts/h1red")
 
 // css
 require("../stylesheets/application")
