@@ -7,3 +7,9 @@ image:https://img.shields.io/badge/license-MIT-blue.svg[MIT, link=LICENSE]
 |Ruby|2.6.3
 |Rails|6.0.0.rc1
 |===
+
+== rails new
+
+----
+$ bundle exec rails new . --database=postgresql --webpacker --skip-action-mailer --skip-action-cable --skip-test --skip-coffee --skip-turbolinks
+----
